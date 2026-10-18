@@ -1,0 +1,48 @@
+
+/* Main Heading Section */
+.middle {
+    position: relative;
+    text-align: center;
+    padding: 25px 60px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #f59e0b;
+}
+
+
+.middle h1 {
+    color: #f59e0b;
+    font-size: 38px;
+    margin: 0;
+    line-height: 1.4;
+}
+
+
+.left-side-logo {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 45px;
+    height: 45px;
+    background-color: #f59e0b;
+    border-radius: 50%;
+    background-image: url(11.png);
+      background-size:cover;
+}
+
+
+.right-side-logo {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+     background-image: url(11.png);
+     background-size:cover;
+
+    width: 45px;
+    height: 45px;
+    background-color: #f59e0b;
+    border-radius: 50%;
+}
+
